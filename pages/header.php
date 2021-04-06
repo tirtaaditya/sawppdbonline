@@ -62,9 +62,7 @@
 
                 <ul class="nav navbar-right navbar-top-links">
                     <li class="dropdown">
-                        <ul class="dropdown-menu dropdown-user">
-			   <?php if($_SESSION['level']==1){ ?>
-			   <?php } ?>
+                        <ul class="dropdown-menu dropdown-user">Log
                             <li class="divider"></li>
                             <li><a href="../logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                             </li>
